@@ -4,7 +4,7 @@ A simple yet powerful tool to identify duplicate entries inside a JSON-formatted
 
 ## 💡 What It Does
 
-This project scans a JSON file (`find.txt`) for repeated values within a specified field, then lists those duplicates in `output.txt`. It’s perfect for quick data validation, especially when working with structured content like API responses or export files.
+This project scans a JSON file (`find.txt`) for repeated values within a specified field, then lists those duplicates in `output.txt`. It’s perfect for quick data validation, especially when working with structured content, such as API responses or export files.
 
 ## 📁 Folder Contents
 
@@ -17,13 +17,13 @@ This project scans a JSON file (`find.txt`) for repeated values within a specifi
 
 Your `find.txt` should contain JSON data in this structure:
 
-```json
+``json
 [
   {"name": "Alice"},
   {"ID": "1234"},
   {"PIN": "02380276823"},
   {"address": "USA"}
-]
+]``
 
 ## 🚀 How to Use
 
@@ -32,7 +32,7 @@ Your `find.txt` should contain JSON data in this structure:
 3. Double-click `main.bat` to run the tool.
 4. After a moment, `output.txt` will automatically be created, and clicking this file will show any duplicate values found.
 
-> 🐍 Make sure Python is installed and added to your system's PATH.
+```🐍 Make sure Python is installed and added to your system's PATH.```
 
 ## 📄 Why Use This Tool?
 
@@ -40,7 +40,6 @@ Your `find.txt` should contain JSON data in this structure:
 - Automatically create the output file for quick results.
 - Great for simple list cleanups and validation tasks.
 
-## 👨‍💻 Created By
+`## 👨‍💻 Created By
 
-**Tamim Rahman Riyad**  
-Focused on automating and improving user experience through scripting and smart logic.
+```**Tamim Rahman Riyad**```
